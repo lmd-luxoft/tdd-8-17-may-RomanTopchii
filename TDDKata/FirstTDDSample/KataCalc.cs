@@ -9,7 +9,7 @@
                 return 0;
             }
 
-            var splitedStringNumbers = numbers.Split(',');
+            var splitedStringNumbers = numbers.Split(new string[2] {"\n", ","}, StringSplitOptions.None);
             var numberList = new List<int>();
             foreach (var stringNumber in splitedStringNumbers)
             {

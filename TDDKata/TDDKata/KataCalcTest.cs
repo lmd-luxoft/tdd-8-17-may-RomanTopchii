@@ -99,6 +99,54 @@ namespace TDDKata
             // Assert
             Assert.Equal(expected, actual);
         }
+
+        [Fact]
+        public void AddNumbersSplitedWithNewLine()
+        {
+            // Arrange
+            string numbers = "1\n1";
+            var expected = 2;
+
+            var kataCalc = new KataCalc();
+
+            // Act
+            var actual = kataCalc.Add(numbers);
+
+            // Assert
+            Assert.Equal(expected, actual);
+        }
+
+        [Fact]
+        public void AddNumbersSplitedWithNewLineAndComma()
+        {
+            // Arrange
+            string numbers = "1\n2,3";
+            var expected = 6;
+
+            var kataCalc = new KataCalc();
+
+            // Act
+            var actual = kataCalc.Add(numbers);
+
+            // Assert
+            Assert.Equal(expected, actual);
+        }
+
+        [Fact]
+        public void AddNumbersSplitedWithNewLineAndCommaReturnMinusOne()
+        {
+            // Arrange
+            string numbers = "2,\n";
+            var expected = -1;
+
+            var kataCalc = new KataCalc();
+
+            // Act
+            var actual = kataCalc.Add(numbers);
+
+            // Assert
+            Assert.Equal(expected, actual);
+        }
     }
 }
 
