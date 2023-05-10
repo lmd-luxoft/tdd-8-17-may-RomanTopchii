@@ -53,7 +53,7 @@ namespace TDDKata
         }
 
         [Fact]
-        public void AddLetterThrowException()
+        public void AddLetterReturnMinusOne()
         {
             // Arrange
             string numbers = "w";
@@ -69,7 +69,7 @@ namespace TDDKata
         }
 
         [Fact]
-        public void AddNumberAndLetterThrowException()
+        public void AddNumberAndLetterReturnMinusOne()
         {
             // Arrange
             string numbers = "1,w";
@@ -85,7 +85,7 @@ namespace TDDKata
         }
 
         [Fact]
-        public void AddLeterAndNumberThrowException()
+        public void AddLeterAndNumberReturnMinusOne()
         {
             // Arrange
             string numbers = "q,1";
