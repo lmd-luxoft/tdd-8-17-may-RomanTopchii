@@ -1,0 +1,12 @@
+C:\Git\TDDKata\FirstTDDSample\bin\Debug\net7.0\FirstTDDSample.deps.json
+C:\Git\TDDKata\FirstTDDSample\bin\Debug\net7.0\FirstTDDSample.dll
+C:\Git\TDDKata\FirstTDDSample\bin\Debug\net7.0\FirstTDDSample.pdb
+C:\Git\TDDKata\FirstTDDSample\obj\Debug\net7.0\FirstTDDSample.csproj.AssemblyReference.cache
+C:\Git\TDDKata\FirstTDDSample\obj\Debug\net7.0\FirstTDDSample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\TDDKata\FirstTDDSample\obj\Debug\net7.0\FirstTDDSample.AssemblyInfoInputs.cache
+C:\Git\TDDKata\FirstTDDSample\obj\Debug\net7.0\FirstTDDSample.AssemblyInfo.cs
+C:\Git\TDDKata\FirstTDDSample\obj\Debug\net7.0\FirstTDDSample.csproj.CoreCompileInputs.cache
+C:\Git\TDDKata\FirstTDDSample\obj\Debug\net7.0\FirstTDDSample.dll
+C:\Git\TDDKata\FirstTDDSample\obj\Debug\net7.0\refint\FirstTDDSample.dll
+C:\Git\TDDKata\FirstTDDSample\obj\Debug\net7.0\FirstTDDSample.pdb
+C:\Git\TDDKata\FirstTDDSample\obj\Debug\net7.0\ref\FirstTDDSample.dll
