@@ -147,6 +147,54 @@ namespace TDDKata
             // Assert
             Assert.Equal(expected, actual);
         }
+
+        [Fact]
+        public void AddNumbersWithSpecifiedDelimeter()
+        {
+            // Arrange
+            string numbers = "//;\n1;2";
+            var expected = 3;
+
+            var kataCalc = new KataCalc();
+
+            // Act
+            var actual = kataCalc.Add(numbers);
+
+            // Assert
+            Assert.Equal(expected, actual);
+        }
+
+        [Fact]
+        public void AddNumbersAndLetterWithSpecifiedDelimeterReturnMinusOne()
+        {
+            // Arrange
+            string numbers = "//;\n1;A";
+            var expected = -1;
+
+            var kataCalc = new KataCalc();
+
+            // Act
+            var actual = kataCalc.Add(numbers);
+
+            // Assert
+            Assert.Equal(expected, actual);
+        }
+
+        [Fact]
+        public void AddLetterWithSpecifiedDelimeterReturnMinusOne()
+        {
+            // Arrange
+            string numbers = "//;\nA";
+            var expected = -1;
+
+            var kataCalc = new KataCalc();
+
+            // Act
+            var actual = kataCalc.Add(numbers);
+
+            // Assert
+            Assert.Equal(expected, actual);
+        }
     }
 }
 
