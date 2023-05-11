@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\TDDKata",
+    "\\TDDKata\\FirstTDDSample",
+    "\\TDDKata\\TDDKata"
   ],
+  "SelectedNode": "\\TDDKata\\TDDKata.sln",
   "PreviewInSolutionExplorer": false
 }

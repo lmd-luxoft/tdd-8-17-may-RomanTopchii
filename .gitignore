@@ -1,0 +1,9 @@
+# Project-specific files
+node_modules/
+.vs/
+[Bb]in/
+[Oo]bj/
+*.suo
+*.user
+dist/
+wwwroot/
