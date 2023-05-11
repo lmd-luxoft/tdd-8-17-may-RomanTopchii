@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDKata", "TDDKata\TDDKata.csproj", "{396211CF-321F-482F-A1C0-62C0AA85D325}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstTDDSample", "FirstTDDSample\FirstTDDSample.csproj", "{32FCFDED-C58C-4DF5-AFF4-90C4DE92ABA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{396211CF-321F-482F-A1C0-62C0AA85D325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{396211CF-321F-482F-A1C0-62C0AA85D325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{396211CF-321F-482F-A1C0-62C0AA85D325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{396211CF-321F-482F-A1C0-62C0AA85D325}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32FCFDED-C58C-4DF5-AFF4-90C4DE92ABA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32FCFDED-C58C-4DF5-AFF4-90C4DE92ABA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32FCFDED-C58C-4DF5-AFF4-90C4DE92ABA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32FCFDED-C58C-4DF5-AFF4-90C4DE92ABA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F03A864C-33A0-421A-8B7E-C57E80F8E1BD}
+	EndGlobalSection
+EndGlobal
